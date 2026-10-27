@@ -4,7 +4,7 @@ import TabItem from '@theme/TabItem';
 
 # HiddenLayer Guardrails
 
-LiteLLM ships with a native integration for [HiddenLayer](https://hiddenlayer.com/). The proxy sends every request/response to HiddenLayer’s `/detection/v1/interactions` endpoint so you can block or redact unsafe content before it reaches your users.
+LiteLLM ships with a native integration for [HiddenLayer](https://hiddenlayer.com/). The proxy sends every request/response to HiddenLayer’s runtime detection so you can block or redact unsafe content before it reaches your users.
 
 ## Quick Start
 
